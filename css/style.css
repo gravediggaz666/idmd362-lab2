@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, cursive;
+    font-family: Arial, sans-serif;
     background-color: #f0f0f0;
 }
 
@@ -33,7 +33,7 @@ input[type="date"] {
 }
 
 button {
-    background-color: hsl(338, 100%, 50%);
+    background-color: hsl(332, 100%, 50%);
     color: #ffffff;
     padding: 10px 20px;
     border: none;
