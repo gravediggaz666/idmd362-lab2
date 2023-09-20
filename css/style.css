@@ -7,7 +7,7 @@ body {
     max-width: 320px;
     margin: 0 auto;
     padding: 20px;
-    background-image: url('bat.jpeg');
+    background-image: url("media/bat.jpeg");
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
@@ -33,7 +33,7 @@ input[type="date"] {
 }
 
 button {
-    background-color: hsl(332, 100%, 50%);
+    background-color: hsl(359, 100%, 50%);
     color: #ffffff;
     padding: 10px 20px;
     border: none;
