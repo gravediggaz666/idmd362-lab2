@@ -1,10 +1,11 @@
 body {
     font-family: 'Patrick Hand', cursive;
+    background-image: url('media/bat.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
-img {
-    max-width: 100%;
-    height: auto;
-}
+
 .user-form {
     max-width: 320px;
     margin: 0 auto;
