@@ -1,20 +1,14 @@
 body {
     font-family: 'Patrick Hand', cursive;
-    margin: 0; 
-    padding: 0; 
     background-image: url('media/bat.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 100vh; 
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
 }
 
 .user-form {
     max-width: 320px;
-    margin-top: 20vh; 
+    margin: 0 auto;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
