@@ -1,102 +1,45 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
-  }
-  
-  body {
-    background-image: url("/Users/snawz1/Desktop/Itmd362/labs/itmd362-lab2/media/1080bat.jpeg");
-    background-repeat: repeat; 
-    background-attachment: fixed; 
-    font-family: 'Lato', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    margin: 0;
-  }
-  
-  
-  
-  
-  .container {
-    max-width: 300px;
-    width: 100%;
-    background-color: #fff;
-    box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
-    text-align: center;
+body {
+    font-family: 'Patrick Hand', cursive;
+    background-image: url('media/bat.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.user-form {
+    max-width: 320px;
+    margin: 0 auto;
     padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .contact-box {
-    max-width: 325px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    background-color: #fff;
-    box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
-    padding: 20px;
-    width: 100%;
-  }
-  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
 
-  .right {
-    text-align: center;
-    font-weight: bold;
-    padding: 25px 40px;
-    width: 100%;
-  }
-  
-  h1 {
+.form-group {
     margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
     font-weight: bold;
-    font-size: 20px;
-  }
-  
+}
 
-  .field {
+input[type="email"],
+input[type="tel"],
+input[type="date"] {
     width: 100%;
     padding: 10px;
-    margin-bottom: 20px; /* Keep margin-bottom for additional spacing */
     border: 1px solid #ccc;
-    border-radius: 4px;
-    text-align: center;
-    margin-top: 10px; /* Add margin-top to create space under labels */
-  }
-  
-  
-  .submit-button {
-    width: 100%;
-    padding: 10px;
-    background-color: #ed0b0b07;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
+    border-radius: 5px;
+    font-size: 16px;
+}
 
-  @media screen and (min-width: 800px) {
-    .container {
-      max-width: 350px;
-    }
-  
-    .contact-box {
-      max-width: 400px;
-      flex-direction: row;
-      justify-content: space-between;
-    }
-  
-    h1 {
-      margin-bottom: 20px;
-      font-weight: bolder;
-      font-size: 30px;
-    }
-  }
+button {
+    background-color: hsl(0, 100%, 50%);
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
